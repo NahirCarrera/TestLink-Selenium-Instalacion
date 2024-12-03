@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcases><testcase name="Verificar opcion Grupos aleatorios"><summary>Verificar que al seleccionar la opción 'Grupos Aleatorios' en el menú desplegable, se redirige correctamente a la URL correspondiente.</summary><preconditions>1. El navegador debe estar abierto.
+2. La página de inicio debe estar cargada.</preconditions><steps><step><step_number>1</step_number><actions>Abrir el menú desplegable.</actions><expectedresults>El menú desplegable se muestra correctamente.</expectedresults></step><step><step_number>2</step_number><actions>Seleccionar la opción 'Grupos Aleatorios' del menú.</actions><expectedresults>Debería redirigir a la página 'randomgroups.html'.</expectedresults></step></steps></testcase></testcases>

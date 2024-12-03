@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<results><testcase external_id="CP-4"><tester>admin</tester><timestamp>2024-12-02 17:56:35</timestamp><result>p</result><notes>La imagen de la moneda coincide con el resultado: CARA</notes></testcase><testcase external_id="CP-4"><tester>admin</tester><timestamp>2024-12-02 17:56:35</timestamp><result>p</result><notes>La imagen de la moneda coincide con el resultado: SELLO</notes></testcase></results>

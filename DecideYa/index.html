@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecideYa!</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body >
+    <!-- Menú de navegación -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <a href="index.html" class="app-name">DecideYa!</a>
+        </div>
+        <div class="dropdown">
+            <button class="dropdown-btn">
+                <div class="hamburger-icon">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                
+            </button>
+            <div class="dropdown-content">
+                <a href="html/pairing.html">
+                    <img src="images/prize.png" alt="Icono de premios" class="menu-icon"> Sortear premios
+                </a>
+                <a href="html/coinflip.html">
+                    <img src="images/coin.png" alt="Icono de moneda" class="menu-icon"> Lanzar Moneda
+                </a>
+                <a href="html/randomgroups.html">
+                    <img src="images/group.png" alt="Icono de grupos" class="menu-icon"> Grupos Aleatorios
+                </a>
+                <a href="html/dice.html">
+                    <img src="images/dice.png" alt="Icono de dados" class="menu-icon"> Tirar Dados
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" >
+        <h1>Sorteos Interactivos</h1>
+        <p class = result-text >Selecciona una opción para comenzar.</p>
+
+        <!-- Sección de imágenes interactivas -->
+        <div class="functionalities">
+            <div class="function-card" onclick="window.location.href='html/pairing.html'">
+                <img src="images/prize.png" alt="Sortear Premios">
+                <h2>Sortear Premios</h2>
+            </div>
+            <div class="function-card" onclick="window.location.href='html/coinflip.html'">
+                <img src="images/coin.png" alt="Lanzamiento de moneda">
+                <h2>Lanzamiento de Moneda</h2>
+            </div>
+            <div class="function-card" onclick="window.location.href='html/randomgroups.html'">
+                <img src="images/group.png" alt="Grupos Aleatorios">
+                <h2>Grupos Aleatorios</h2>
+            </div>
+            <div class="function-card" onclick="window.location.href='html/dice.html'">
+                <img src="images/dice.png" alt="Lanzar dados">
+                <h2>Lanzar Dados</h2>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 DecideYa! Todos los derechos reservados.</p>
+        <p>
+            <a href="terms.html">Términos y condiciones</a> | 
+            <a href="privacy.html">Política de privacidad</a> | 
+            <a href="contact.html">Contacto</a>
+        </p>
+    </footer>
+    
+</body>
+</html>

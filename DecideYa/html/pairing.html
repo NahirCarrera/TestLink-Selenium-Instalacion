@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sortear Premios</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/png" href="../images/logo.png">
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="../images/logo.png" alt="Logo" class="logo">
+            <a href="../index.html" class="app-name">DecideYa!</a>
+        </div>
+        <div class="dropdown">
+            <button class="dropdown-btn">
+                <div class="hamburger-icon">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                
+            </button>
+            <div class="dropdown-content">
+                <a href="pairing.html">
+                    <img src="../images/prize.png" alt="Icono de premios" class="menu-icon"> Sortear Premios
+                </a>
+                <a href="coinflip.html">
+                    <img src="../images/coin.png" alt="Icono de moneda" class="menu-icon"> Lanzar Moneda
+                </a>
+                <a href="randomgroups.html">
+                    <img src="../images/group.png" alt="Icono de grupos" class="menu-icon"> Grupos Aleatorios
+                </a>
+                <a href="dice.html">
+                    <img src="../images/dice.png" alt="Icono de dados" class="menu-icon"> Tirar Dados
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Emparejar Participantes y Premios</h1>
+        <textarea id="participants" placeholder="Ingresa los nombres de los participantes, uno por línea"></textarea>
+        <textarea id="prizes" placeholder="Ingresa los premios, uno por línea"></textarea>
+        <button onclick="pairParticipants()">Emparejar</button>
+        <ul id="pairResults" class="result-text"></ul>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 DecideYa! Todos los derechos reservados.</p>
+        <p>
+            <a href="terms.html">Términos y condiciones</a> | 
+            <a href="privacy.html">Política de privacidad</a> | 
+            <a href="contact.html">Contacto</a>
+        </p>
+    </footer>
+
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
